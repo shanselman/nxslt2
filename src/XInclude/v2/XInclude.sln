@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XInclude", "src\XInclude.csproj", "{3750FAB1-FD0E-425A-9DAA-87543A556319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XIncludeTest", "test\XIncludeTest.csproj", "{D766C1F9-D2DA-4088-9AE1-52EA369B555F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3750FAB1-FD0E-425A-9DAA-87543A556319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3750FAB1-FD0E-425A-9DAA-87543A556319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3750FAB1-FD0E-425A-9DAA-87543A556319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3750FAB1-FD0E-425A-9DAA-87543A556319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D766C1F9-D2DA-4088-9AE1-52EA369B555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D766C1F9-D2DA-4088-9AE1-52EA369B555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D766C1F9-D2DA-4088-9AE1-52EA369B555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D766C1F9-D2DA-4088-9AE1-52EA369B555F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

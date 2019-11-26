@@ -1,0 +1,167 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA694D9F-6B1E-4038-AC81-BF1640C07D90}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Mvp.Xml.Exslt</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Mvp.Xml.Exslt</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;NET11</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltContextFunction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltDatesAndTimes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltMath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltNamespaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltRandom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltRegularExpressions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltSets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltStrings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExsltTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDNDatesAndTimes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDNDynamic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDNMath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDNRegularExpressions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDNSets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDNStrings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiOutput\MultiXmlTextWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiOutput\OutputState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Xsl\IXmlTransform.cs" />
+    <Compile Include="Xsl\MvpXslTransform.cs" />
+    <Compile Include="Xsl\XslReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Common\v2\src\Common.csproj">
+      <Project>{12B8D3E3-4362-4E91-A3D2-37473083B47A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>@echo ########### Setting environment variables
+call "$(DevEnvDir)..\Tools\vsvars32.bat"
+@echo ########### Disassembing...
+ildasm Mvp.Xml.Exslt.dll  /out=Mvp.Xml.Exslt.il /nobar
+@echo ########### Renaming methods...	
+MethodRenamer.exe Mvp.Xml.Exslt.il Mvp.Xml.Exslt.Fixed.il
+@echo ########### Assembling library back...
+ilasm Mvp.Xml.Exslt.Fixed.il /RESOURCE=Mvp.Xml.Exslt.res  /DLL /OUTPUT=Mvp.Xml.Exslt.dll /KEY=../../../../Global/mvp-xml.snk 
+@echo ########### Cleaning...
+del Mvp.Xml.Exslt.res
+del Mvp.Xml.Exslt.il
+del Mvp.Xml.Exslt.Fixed.il
+del Mvp.Xml.Common.SR.resources</PostBuildEvent>
+  </PropertyGroup>
+</Project>

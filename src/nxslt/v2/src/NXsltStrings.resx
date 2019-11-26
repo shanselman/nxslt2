@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UsageHeader">
+    <value xml:space="preserve">.NET 2.0 XSLT command line utility, version {0}.{1}.{2}
+(c) 2004-2005 Oleg Tkachenko, http://www.xmllab.net
+Running under .NET {3}.{4}.{5}.{6}</value>
+  </data>
+  <data name="UsageBody">
+    <value xml:space="preserve">Usage: nxslt source stylesheet [options] [param=value...] [xmlns:prefix=uri...]
+		
+Options:
+  -?            Show this message
+  -o filename   Write output to named file    
+  -xw           Strip non-significant whitespace from source and stylesheet
+  -xe           Do not resolve external definitions during parse phase
+  -xi           Do not process XInclude during parse phase
+  -v            Validate documents during parse phase    
+  -t            Show load and transformation timings
+  -xs           No source XML
+  -pp           Pretty-print source document
+  -pi           Get stylesheet URL from xml-stylesheet PI in source document
+  -r            Use named URI resolver class
+  -af           Assembly file name to look up URI resolver class
+  -an           Assembly full or partial name to look up URI resolver class
+  -mo           Allow multiple output documents
+  -ext          Comma-separated list of extension object class names  
+  -xmlc creds   Credentials in username:password@domain format to be 
+                used in Web request authentications when loading source XML
+  -xslc creds   Credentials in username:password@domain format to be 
+                used in Web request authentications when loading XSLT
+  -             Dash used as source argument loads XML from stdin
+  -             Dash used as stylesheet argument loads XSLT from stdin
+		</value>
+  </data>
+  <data name="ErrorCommandLineParsing">
+    <value xml:space="preserve">An error occurred while parsing command line.</value>
+  </data>
+  <data name="ErrorMissingSource">
+    <value xml:space="preserve">Missing source filename.</value>
+  </data>
+  <data name="ErrorMissingStylesheet">
+    <value xml:space="preserve">Missing stylesheet filename.</value>
+  </data>
+  <data name="ErrorParsingDoc">
+    <value xml:space="preserve">An error occurred while parsing document: {0}: {1}</value>
+  </data>
+  <data name="ErrorMissingOutFileName">
+    <value xml:space="preserve">Missing output filename after '-o' option.</value>
+  </data>
+  <data name="ErrorCreatingFile">
+    <value xml:space="preserve">An error occurred while creating file '{0}'.</value>
+  </data>
+  <data name="ErrorUnboundedPrefix">
+    <value xml:space="preserve">Prefix '{0}' cannot be resolved.  Use xmlns:{0}='...' to bind '{0}' to a URI.</value>
+  </data>
+  <data name="ErrorWrongParam">
+    <value xml:space="preserve">Parameter name '{0}' must be followed by an '=' character.</value>
+  </data>
+  <data name="ErrorBothStdin">
+    <value xml:space="preserve">The input and the stylesheet document cannot both be read from stdin. At least one of them must be loaded from a URL.</value>
+  </data>
+  <data name="ErrorUnrecognizedOption">
+    <value xml:space="preserve">Unrecognized option : '{0}'.</value>
+  </data>
+  <data name="FromStdin">
+    <value xml:space="preserve">&lt;from stdin&gt;</value>
+  </data>
+  <data name="ErrorInvalidPI">
+    <value xml:space="preserve">The source document does not contain an 'xml-stylesheet' processing instruction of this form: &lt;?xml-stylesheet type='text/xsl' href='stylesheet-url'?&gt;</value>
+  </data>
+  <data name="ErrorBothStylesheetAndPI">
+    <value xml:space="preserve">The '-pi' option cannot be used when the stylesheet argument is specified.</value>
+  </data>
+  <data name="ErrorBothNoSourceAndPI">
+    <value xml:space="preserve">The '-pi' and '-xs' options are mutually exclusive.</value>
+  </data>
+  <data name="ErrorBothNoSourceAndSource">
+    <value xml:space="preserve">The '-xs' option and source document filename (or '-') are mutually exclusive.</value>
+  </data>
+  <data name="Timings">
+    <value xml:space="preserve">Stylesheet load/compile time:  {0, 9:f3} milliseconds
+Transformation time:           {1, 9:f3} milliseconds
+Total execution time:          {2, 9:f3} milliseconds
+</value>
+  </data>
+  <data name="ErrorTransform">
+    <value xml:space="preserve">An error occurred while executing transformation: {0}</value>
+  </data>
+  <data name="ErrorMissingName">
+    <value xml:space="preserve">The '=' character must be preceded by the name of a parameter or a namespace declaration.</value>
+  </data>
+  <data name="ErrorMissingValue">
+    <value xml:space="preserve">Parameter '{0}' is missing a value following the '=' character.</value>
+  </data>
+  <data name="ErrorMissingURI">
+    <value xml:space="preserve">Namespace declaration '{0}' is missing a URI following the '=' character.</value>
+  </data>
+  <data name="ErrorCompileStyle">
+    <value xml:space="preserve">An error occurred while compiling stylesheet '{0}': {1}</value>
+  </data>
+  <data name="ErrorPIStylesheetNotFound">
+    <value xml:space="preserve">Stylesheet '{0}', defined in 'xml-stylesheet' processing instruction not found.</value>
+  </data>
+  <data name="ErrorMissingResolverTypeName">
+    <value xml:space="preserve">Missing URI resolver type name after '-r' option.</value>
+  </data>
+  <data name="ErrorMissingAssemblyFileName">
+    <value xml:space="preserve">Missing assembly file name after '-af' option.</value>
+  </data>
+  <data name="ErrorMissingExtClassNames">
+    <value xml:space="preserve">Missing list of extension class names after '-ext' option.</value>
+  </data>
+  <data name="ErrorMissingAssemblyName">
+    <value xml:space="preserve">Missing assembly name after '-an' option.</value>
+  </data>
+  <data name="ErrorLoadAssembly">
+    <value xml:space="preserve">An error occurred while loading assembly '{0}'.</value>
+  </data>
+  <data name="ErrorGetTypeFromAssembly">
+    <value xml:space="preserve">Type '{0}' not found in '{1}' assembly.</value>
+  </data>
+  <data name="ErrorCreateResolver">
+    <value xml:space="preserve">An error occurred while instantiating '{0}' type: {1}</value>
+  </data>
+  <data name="ErrorTypeNotXmlResolver">
+    <value xml:space="preserve">Specified URI resolver type '{0}' is not XmlResolver type.</value>
+  </data>
+  <data name="ErrorGetType">
+    <value xml:space="preserve">Type '{0}' not found.</value>
+  </data>
+  <data name="ErrorBothAssemblyFileNameAndName">
+    <value xml:space="preserve">-af and -an options cannot be used simultaneously.</value>
+  </data>
+  <data name="ErrorExtNamespaceClash">
+    <value xml:space="preserve">Two extension objects cannot be bound to '{0}' namespace URI.</value>
+  </data>
+  <data name="ErrorExtNoNamespace">
+    <value xml:space="preserve">Extension object '{0}' must be bound to a namespace URI.</value>
+  </data>
+  <data name="ErrorMissingExsltLibPath">
+    <value xml:space="preserve">Missing EXSLT.NET assembly file path after '-exslt' option.</value>
+  </data>
+  <data name="ErrorLoadExsltLibNotFound">
+    <value xml:space="preserve">An error occurred while loading specified EXSLT.NET assembly '{0}'. Error details: {1}</value>
+  </data>
+  <data name="ErrorLoadExsltTransformTypeNotFound">
+    <value xml:space="preserve">Specified EXSLT.NET assembly '{0}' doesn't contain GotDotNet.Exslt.ExsltTransform class. Error details: {1}</value>
+  </data>
+  <data name="ErrorLoadExsltTransformTypeCannotBeInstantiated">
+    <value xml:space="preserve">GotDotNet.Exslt.ExsltTransform class from specified EXSLT.NET assembly '{0}' cannot be instantiated. Error details: {1}</value>
+  </data>
+  <data name="ErrorMissingXMLCredentials">
+    <value xml:space="preserve">Missing credentials after '-xmlc' option.</value>
+  </data>
+  <data name="ErrorMissingXSLTCredentials">
+    <value xml:space="preserve">Missing credentials after '-xslc' option.</value>
+  </data>
+  <data name="PatternCredentials">
+    <value xml:space="preserve">(?&lt;username&gt;\w+):?(?&lt;psw&gt;\w*)@?(?&lt;domain&gt;\w*)</value>
+  </data>
+  <data name="ErrorBadCredentials">
+    <value xml:space="preserve">Specified credentials '{0}' don't match username:password@domain pattern.</value>
+  </data>
+  <data name="ErrorDuplicateCredentials">
+    <value xml:space="preserve">Duplicate credentials.</value>
+  </data>
+  <data name="ErrorStylesheetAndPrettyPrintMode">
+    <value xml:space="preserve">No stylesheet (in file name, '-' or '-pi' ways) should be specified along with '-pp' option.</value>
+  </data>
+  <data name="IdentityTransformation">
+    <value xml:space="preserve">&lt;xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;  		
+  &lt;xsl:template match="/"&gt;
+    &lt;xsl:copy-of select="."/&gt;      
+  &lt;/xsl:template&gt;
+&lt;/xsl:transform&gt;</value>
+  </data>
+  <data name="Error">
+    <value xml:space="preserve">An error occured: {0}</value>
+  </data> 
+</root>

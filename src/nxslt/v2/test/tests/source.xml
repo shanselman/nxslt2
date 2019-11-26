@@ -1,0 +1,5 @@
+<?xml-stylesheet type="text/xsl" href="style.xslt"?>
+<!DOCTYPE foo SYSTEM "foo.dtd">
+<foo>
+  <bar>&bar;</bar>
+</foo>

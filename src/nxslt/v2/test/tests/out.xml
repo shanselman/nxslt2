@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="iso-8859-1"?><out xmlns:date="http://exslt.org/dates-and-times" xmlns:exsl="http://exslt.org/common">2005-12-04T17:18:47+02:00<out>2005-12-04T17:18:46+02:00<?xml-stylesheet type="text/xsl" href="style.xslt"?><foo>
+  <bar>hello there</bar>
+</foo><exsl:document href="second.xml" encoding="ascii"><second>document</second></exsl:document></out><exsl:document href="second.xml" encoding="ascii"><second>document</second></exsl:document></out>

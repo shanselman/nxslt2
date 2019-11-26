@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPointer", "src\XPointer.csproj", "{E0E9C344-ABB5-4CE9-A055-DECB508298E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPointerTest", "test\XPointerTest.csproj", "{79267547-881D-45DA-90B7-17CAC2EE8814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0E9C344-ABB5-4CE9-A055-DECB508298E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E9C344-ABB5-4CE9-A055-DECB508298E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E9C344-ABB5-4CE9-A055-DECB508298E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E9C344-ABB5-4CE9-A055-DECB508298E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79267547-881D-45DA-90B7-17CAC2EE8814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79267547-881D-45DA-90B7-17CAC2EE8814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79267547-881D-45DA-90B7-17CAC2EE8814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79267547-881D-45DA-90B7-17CAC2EE8814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
